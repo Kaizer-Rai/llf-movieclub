@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Libtard Liberation Force - Movie Club</h1>
+
+<input 
+  type="text" 
+  id="filter-input" 
+  placeholder="Search by title, director, genre, or year..." 
+/>
+
+<select id="sort-select">
+  <option value="default">Sort by...</option>
+  <option value="avg-desc">Avg Rating: High to Low</option>
+  <option value="avg-asc">Avg Rating: Low to High</option>
+  <option value="year-desc">Year: Newest First</option>
+  <option value="year-asc">Year: Oldest First</option>
+</select>
+    </header>
+
+    <main id="display-movies">
+    </main>
+    
+    <script src="app.js"></script>   
+</body>
+
+</html>
